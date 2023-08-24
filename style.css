@@ -1,8 +1,8 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgba(249, 154, 87, 0.742);
+    color: rgba(255, 29, 123, 0.717);
     padding: 10px;
-    font-family: arial;
+    font-family: fantasy;
 }
 #all-contents {
   max-width: 800px;
@@ -11,15 +11,16 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgba(250, 109, 180, 0.879);
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(238, 28, 95);
     flex: 1;
     margin: 0;
 }
@@ -32,7 +33,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffffa9;
 }
 
 /* main container area beneath menu */
