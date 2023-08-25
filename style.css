@@ -2,7 +2,7 @@ body {
     background: rgba(249, 154, 87, 0.742);
     color: rgba(255, 29, 123, 0.717);
     padding: 10px;
-    font-family: fantasy;
+    font-family: cursive;
 }
 #all-contents {
   max-width: 800px;
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(255, 72, 188);
     display: flex;
 }
 .sidebar {
@@ -61,3 +61,27 @@ main {
 h2, h3 {
     margin: 0px;
 }
+  /* portfolio styles */
+  .content h1 {
+    color: rgb(255, 201, 239);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #ff954ed9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #f536cf;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
