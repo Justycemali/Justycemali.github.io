@@ -1,6 +1,6 @@
 body {
     background: rgba(249, 154, 87, 0.742);
-    color: rgba(255, 29, 123, 0.717);
+    color: rgba(255, 11, 113, 0.991);
     padding: 10px;
     font-family: cursive;
 }
@@ -20,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(238, 28, 95);
+    color: rgba(238, 28, 95, 0.859);
     flex: 1;
     margin: 0;
 }
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(255, 72, 188);
+    background: rgba(255, 72, 188, 0.517);
     display: flex;
 }
 .sidebar {
