@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-  background-image:"https://png.pngtree.com/background/20210714/original/pngtree-abstract-pink-neon-light-gaming-background-design-picture-image_1243725.jpg";
+ background-image:url("https://png.pngtree.com/background/20210714/original/pngtree-abstract-pink-neon-light-gaming-background-design-picture-image_1243725.jpg");
 }
 
 img {
