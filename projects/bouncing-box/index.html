@@ -63,41 +63,36 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			    functionupdate(){
-					/*Your Code to Increase positionx by 10 here*/
-					myVarible=myVarible + 10;
-               moveBoxTo(positionX);
-				};
+			var positionX = 0;
+
+			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			
+			function update() {
+				    /* Your Code to Increase positionX by 10 HERE */
+                    
+					positionX = positionX + 10;
+				   
 				
-				
-			
-				
-		
-		
+				moveBoxTo(positionX);
 	
-
-               points(0);
-			};
-
-			/* 
-			This Function will be called each time the box is clicked. Each time it is called,
-			it should increase the points total, increase the speed, and move the box to
-			the left side of the screen.
-			*/
-			function handleBoxClick() {
-				postion = 0;
-				changeBoxText(1);
-				
-
-
-			};
-		})();
-	</script>
-</body>
-</html>
+	
+				};
+	
+				/* 
+				This Function will be called each time the box is clicked. Each time it is called,
+				it should increase the points total, increase the speed, and move the box to
+				the left side of the screen.
+				*/
+				function handleBoxClick() {
+					
+	
+	
+				};
+			})();
+		</script>
+	</body>
+	</html>
